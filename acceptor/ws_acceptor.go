@@ -25,6 +25,7 @@ import (
 	"io"
 	"net"
 	"net/http"
+	"sync"
 	"time"
 
 	"github.com/gorilla/websocket"
@@ -172,6 +173,7 @@ type WSConn struct {
 	conn   *websocket.Conn
 	typ    int // message type
 	reader io.Reader
+	mux         sync.Mutex
 }
 
 // NewWSConn return an initialized *WSConn
@@ -234,7 +236,9 @@ func (c *WSConn) Read(b []byte) (int, error) {
 // Write can be made to time out and return an Error with Timeout() == true
 // after a fixed time limit; see SetDeadline and SetWriteDeadline.
 func (c *WSConn) Write(b []byte) (int, error) {
+	c.mux.Lock()
 	err := c.conn.WriteMessage(websocket.BinaryMessage, b)
+	c.mux.Unlock()
 	if err != nil {
 		return 0, err
 	}
