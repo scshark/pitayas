@@ -27,9 +27,9 @@ import (
 	"net"
 
 	"github.com/mailgun/proxyproto"
-	"github.com/topfreegames/pitaya/v2/conn/codec"
-	"github.com/topfreegames/pitaya/v2/constants"
-	"github.com/topfreegames/pitaya/v2/logger"
+	"github.com/scshark/pitayas/v2/conn/codec"
+	"github.com/scshark/pitayas/v2/constants"
+	"github.com/scshark/pitayas/v2/logger"
 )
 
 // TCPAcceptor struct

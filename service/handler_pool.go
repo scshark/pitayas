@@ -5,16 +5,16 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/topfreegames/pitaya/v2/component"
-	"github.com/topfreegames/pitaya/v2/conn/message"
-	"github.com/topfreegames/pitaya/v2/constants"
-	e "github.com/topfreegames/pitaya/v2/errors"
-	"github.com/topfreegames/pitaya/v2/logger/interfaces"
-	"github.com/topfreegames/pitaya/v2/pipeline"
-	"github.com/topfreegames/pitaya/v2/route"
-	"github.com/topfreegames/pitaya/v2/serialize"
-	"github.com/topfreegames/pitaya/v2/session"
-	"github.com/topfreegames/pitaya/v2/util"
+	"github.com/scshark/pitayas/v2/component"
+	"github.com/scshark/pitayas/v2/conn/message"
+	"github.com/scshark/pitayas/v2/constants"
+	e "github.com/scshark/pitayas/v2/errors"
+	"github.com/scshark/pitayas/v2/logger/interfaces"
+	"github.com/scshark/pitayas/v2/pipeline"
+	"github.com/scshark/pitayas/v2/route"
+	"github.com/scshark/pitayas/v2/serialize"
+	"github.com/scshark/pitayas/v2/session"
+	"github.com/scshark/pitayas/v2/util"
 )
 
 // HandlerPool ...

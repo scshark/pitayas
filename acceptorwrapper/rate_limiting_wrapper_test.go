@@ -25,8 +25,8 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/topfreegames/pitaya/v2/config"
-	"github.com/topfreegames/pitaya/v2/metrics"
+	"github.com/scshark/pitayas/v2/config"
+	"github.com/scshark/pitayas/v2/metrics"
 )
 
 func TestNewRateLimitingWrapper(t *testing.T) {

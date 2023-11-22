@@ -26,14 +26,14 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"github.com/spf13/viper"
-	"github.com/topfreegames/pitaya/v2/cluster"
-	"github.com/topfreegames/pitaya/v2/component"
-	"github.com/topfreegames/pitaya/v2/config"
-	"github.com/topfreegames/pitaya/v2/interfaces"
-	"github.com/topfreegames/pitaya/v2/metrics"
-	"github.com/topfreegames/pitaya/v2/router"
-	"github.com/topfreegames/pitaya/v2/session"
-	"github.com/topfreegames/pitaya/v2/worker"
+	"github.com/scshark/pitayas/v2/cluster"
+	"github.com/scshark/pitayas/v2/component"
+	"github.com/scshark/pitayas/v2/config"
+	"github.com/scshark/pitayas/v2/interfaces"
+	"github.com/scshark/pitayas/v2/metrics"
+	"github.com/scshark/pitayas/v2/router"
+	"github.com/scshark/pitayas/v2/session"
+	"github.com/scshark/pitayas/v2/worker"
 )
 
 var DefaultApp Pitaya

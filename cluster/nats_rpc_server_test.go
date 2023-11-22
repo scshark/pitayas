@@ -31,14 +31,14 @@ import (
 	"github.com/golang/protobuf/proto"
 	nats "github.com/nats-io/nats.go"
 	"github.com/stretchr/testify/assert"
-	"github.com/topfreegames/pitaya/v2/config"
-	"github.com/topfreegames/pitaya/v2/constants"
-	"github.com/topfreegames/pitaya/v2/helpers"
-	"github.com/topfreegames/pitaya/v2/metrics"
-	metricsmocks "github.com/topfreegames/pitaya/v2/metrics/mocks"
-	"github.com/topfreegames/pitaya/v2/protos"
-	protosmocks "github.com/topfreegames/pitaya/v2/protos/mocks"
-	sessionmocks "github.com/topfreegames/pitaya/v2/session/mocks"
+	"github.com/scshark/pitayas/v2/config"
+	"github.com/scshark/pitayas/v2/constants"
+	"github.com/scshark/pitayas/v2/helpers"
+	"github.com/scshark/pitayas/v2/metrics"
+	metricsmocks "github.com/scshark/pitayas/v2/metrics/mocks"
+	"github.com/scshark/pitayas/v2/protos"
+	protosmocks "github.com/scshark/pitayas/v2/protos/mocks"
+	sessionmocks "github.com/scshark/pitayas/v2/session/mocks"
 )
 
 type funcPtrMatcher struct {

@@ -21,7 +21,7 @@
 package acceptorwrapper
 
 import (
-	"github.com/topfreegames/pitaya/v2/acceptor"
+	"github.com/scshark/pitayas/v2/acceptor"
 )
 
 // BaseWrapper implements Wrapper by saving the acceptor as an attribute.

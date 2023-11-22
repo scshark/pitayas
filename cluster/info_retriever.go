@@ -1,6 +1,6 @@
 package cluster
 
-import "github.com/topfreegames/pitaya/v2/config"
+import "github.com/scshark/pitayas/v2/config"
 
 // infoRetriever gets cluster info from config
 // Implements InfoRetriever interface

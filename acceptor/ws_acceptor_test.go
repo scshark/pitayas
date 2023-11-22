@@ -8,9 +8,9 @@ import (
 
 	"github.com/gorilla/websocket"
 	"github.com/stretchr/testify/assert"
-	"github.com/topfreegames/pitaya/v2/conn/packet"
-	"github.com/topfreegames/pitaya/v2/constants"
-	"github.com/topfreegames/pitaya/v2/helpers"
+	"github.com/scshark/pitayas/v2/conn/packet"
+	"github.com/scshark/pitayas/v2/constants"
+	"github.com/scshark/pitayas/v2/helpers"
 )
 
 var wsAcceptorTables = []struct {

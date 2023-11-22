@@ -47,12 +47,12 @@ Handlers can optionally implement the following lifecycle methods:
 
 ### Handler example
 
-Below is a very barebones example of a handler definition, for a complete working example, check the [cluster demo](https://github.com/topfreegames/pitaya/tree/master/examples/demo/cluster).
+Below is a very barebones example of a handler definition, for a complete working example, check the [cluster demo](https://github.com/scshark/pitayas/tree/master/examples/demo/cluster).
 
 ```go
 import (
   "github.com/topfreegames/pitaya"
-  "github.com/topfreegames/pitaya/component"
+  "github.com/scshark/pitayas/component"
 )
 
 type Handler struct {
@@ -143,4 +143,4 @@ Remotes can optionally implement the following lifecycle methods:
 
 ### Remote example
 
-For a complete working example, check the [cluster demo](https://github.com/topfreegames/pitaya/tree/master/examples/demo/cluster).
+For a complete working example, check the [cluster demo](https://github.com/scshark/pitayas/tree/master/examples/demo/cluster).

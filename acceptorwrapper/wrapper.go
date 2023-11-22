@@ -21,7 +21,7 @@
 package acceptorwrapper
 
 import (
-	"github.com/topfreegames/pitaya/v2/acceptor"
+	"github.com/scshark/pitayas/v2/acceptor"
 )
 
 // Wrapper has a method that receives an acceptor and the struct

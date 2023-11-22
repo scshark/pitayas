@@ -24,8 +24,8 @@ import (
 	"errors"
 	"reflect"
 
-	"github.com/topfreegames/pitaya/v2/conn/message"
-	"github.com/topfreegames/pitaya/v2/constants"
+	"github.com/scshark/pitayas/v2/conn/message"
+	"github.com/scshark/pitayas/v2/constants"
 )
 
 type (

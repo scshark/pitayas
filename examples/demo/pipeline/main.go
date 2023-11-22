@@ -5,10 +5,10 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/topfreegames/pitaya/v2"
-	"github.com/topfreegames/pitaya/v2/acceptor"
-	"github.com/topfreegames/pitaya/v2/component"
-	"github.com/topfreegames/pitaya/v2/config"
+	"github.com/scshark/pitayas/v2"
+	"github.com/scshark/pitayas/v2/acceptor"
+	"github.com/scshark/pitayas/v2/component"
+	"github.com/scshark/pitayas/v2/config"
 )
 
 // MetagameServer ...

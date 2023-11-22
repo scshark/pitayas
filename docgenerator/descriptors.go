@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/topfreegames/pitaya/v2/constants"
+	"github.com/scshark/pitayas/v2/constants"
 )
 
 // ProtoDescriptors returns the descriptor for a given message name or .proto file

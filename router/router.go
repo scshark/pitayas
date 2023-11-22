@@ -25,12 +25,12 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/topfreegames/pitaya/v2/cluster"
-	"github.com/topfreegames/pitaya/v2/conn/message"
-	"github.com/topfreegames/pitaya/v2/constants"
-	"github.com/topfreegames/pitaya/v2/logger"
-	"github.com/topfreegames/pitaya/v2/protos"
-	"github.com/topfreegames/pitaya/v2/route"
+	"github.com/scshark/pitayas/v2/cluster"
+	"github.com/scshark/pitayas/v2/conn/message"
+	"github.com/scshark/pitayas/v2/constants"
+	"github.com/scshark/pitayas/v2/logger"
+	"github.com/scshark/pitayas/v2/protos"
+	"github.com/scshark/pitayas/v2/route"
 )
 
 // Router struct

@@ -1,6 +1,6 @@
 package service
 
-import "github.com/topfreegames/pitaya/v2/pipeline"
+import "github.com/scshark/pitayas/v2/pipeline"
 
 type baseService struct {
 	handlerHooks *pipeline.HandlerHooks

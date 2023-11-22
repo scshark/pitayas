@@ -29,10 +29,10 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/assert"
-	"github.com/topfreegames/pitaya/v2/constants"
-	pcontext "github.com/topfreegames/pitaya/v2/context"
-	e "github.com/topfreegames/pitaya/v2/errors"
-	"github.com/topfreegames/pitaya/v2/metrics/mocks"
+	"github.com/scshark/pitayas/v2/constants"
+	pcontext "github.com/scshark/pitayas/v2/context"
+	e "github.com/scshark/pitayas/v2/errors"
+	"github.com/scshark/pitayas/v2/metrics/mocks"
 )
 
 func TestReportTimingFromCtx(t *testing.T) {

@@ -23,8 +23,8 @@ package client
 import (
 	"crypto/tls"
 
-	"github.com/topfreegames/pitaya/v2/conn/message"
-	"github.com/topfreegames/pitaya/v2/session"
+	"github.com/scshark/pitayas/v2/conn/message"
+	"github.com/scshark/pitayas/v2/session"
 )
 
 // PitayaClient iface

@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
-	"github.com/topfreegames/pitaya/v2/config"
+	"github.com/scshark/pitayas/v2/config"
 )
 
 func TestInfoRetrieverRegion(t *testing.T) {
